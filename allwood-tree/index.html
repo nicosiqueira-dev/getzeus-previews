@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allwood Tree Service — Tree Removal & Trimming, Jacksonville FL</title>
+<meta name="description" content="4.9-star tree removal, trimming, and stump grinding in Jacksonville and St. Johns. Call Allwood Tree Service: (904) 315-8870.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pine:#16352A; --pine-deep:#0E241C; --cream:#F5EFE2; --cream-2:#EDE4D0;
+  --saw:#E8611C; --saw-deep:#C24A10; --bark:#2C2620; --moss:#6E7F5C;
+  --ring:rgba(245,239,226,.14);
+  --display:'Archivo Black',sans-serif; --body:'Bricolage Grotesque',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--cream);color:var(--bark);line-height:1.55;-webkit-font-smoothing:antialiased;padding-bottom:74px}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .04 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E")}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px;position:relative;z-index:2}
+
+.ribbon{background:var(--saw);color:#fff;text-align:center;font-weight:800;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;padding:8px 14px;position:relative;z-index:3}
+.ribbon span{opacity:.9;font-weight:600;text-transform:none;letter-spacing:0}
+
+.hero{background:linear-gradient(160deg, rgba(14,36,28,.9) 0%, rgba(22,53,42,.78) 55%, rgba(14,36,28,.92) 100%), url('photos/work-1.jpg') center 40%/cover no-repeat, var(--pine);color:var(--cream);position:relative;overflow:hidden;padding:54px 0 60px}
+.hero::after{content:"";position:absolute;right:-120px;top:-120px;width:460px;height:460px;border-radius:50%;
+  background:radial-gradient(circle, transparent 54px, var(--ring) 55px, transparent 57px, transparent 84px, var(--ring) 85px, transparent 87px, transparent 118px, var(--ring) 119px, transparent 121px, transparent 156px, var(--ring) 157px, transparent 159px, transparent 198px, var(--ring) 199px, transparent 201px, transparent 226px, var(--ring) 227px, transparent 229px)}
+.crew{font-size:.8rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#D9A566;animation:up .6s .05s both}
+.hero h1{font-family:var(--display);font-size:clamp(2.6rem,9vw,4.6rem);line-height:.95;letter-spacing:-.01em;margin:12px 0 6px;text-transform:uppercase;animation:up .6s .15s both}
+.hero h1 em{font-style:normal;color:var(--saw)}
+.hero .sub{font-size:clamp(1.02rem,2.6vw,1.25rem);max-width:34ch;color:#E4DCC9;font-weight:400;animation:up .6s .25s both}
+.stars{display:inline-flex;align-items:center;gap:10px;background:var(--pine-deep);border:1px solid rgba(245,239,226,.18);border-radius:99px;padding:9px 18px;margin:22px 0 4px;font-weight:600;font-size:.95rem;animation:up .6s .35s both}
+.stars b{color:#F2B04E;letter-spacing:2px;font-size:1.05rem}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;animation:up .6s .45s both}
+.btn{display:inline-block;text-decoration:none;font-weight:800;border-radius:12px;padding:16px 26px;font-size:1.06rem;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.call{background:var(--saw);color:#fff;box-shadow:0 12px 28px -12px rgba(232,97,28,.7)}
+.btn.ghost{background:transparent;color:var(--cream);border:2px solid rgba(245,239,226,.4)}
+@keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+
+.tape{height:14px;background:repeating-linear-gradient(-45deg, var(--saw) 0 16px, var(--pine-deep) 16px 32px)}
+
+section{padding:52px 0}
+.kick{font-size:.78rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--saw-deep)}
+h2{font-family:var(--display);font-size:clamp(1.5rem,4.5vw,2.2rem);text-transform:uppercase;line-height:1.05;margin:8px 0 18px;color:var(--pine)}
+
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.card{background:#FFFDF7;border:1px solid rgba(44,38,32,.12);border-top:5px solid var(--pine);border-radius:14px;padding:20px;box-shadow:0 10px 26px -20px rgba(44,38,32,.5)}
+.card h3{font-family:var(--body);font-weight:800;font-size:1.08rem;margin:10px 0 4px;color:var(--pine)}
+.card p{font-size:.92rem;color:#5A5248}
+.card svg{width:34px;height:34px;stroke:var(--saw-deep);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+.storm{background:var(--pine);color:var(--cream);border-radius:18px;padding:26px 26px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.storm .big{font-family:var(--display);text-transform:uppercase;font-size:clamp(1.15rem,3.4vw,1.6rem);line-height:1.1}
+.storm p{color:#E4DCC9;font-size:.95rem;max-width:52ch}
+.storm .btn{margin-left:auto}
+
+.rev{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.q{background:#FFFDF7;border:1px solid rgba(44,38,32,.12);border-radius:14px;padding:20px;box-shadow:0 10px 26px -20px rgba(44,38,32,.5)}
+.q .s{color:#F2B04E;letter-spacing:2px;font-weight:700}
+.q p{font-size:.94rem;color:#4A443C;margin:8px 0 10px}
+.q .who{font-weight:700;font-size:.85rem;color:var(--pine)}
+.q .via{font-weight:400;color:#8A8072}
+
+.quote{background:var(--cream-2);border-radius:18px;padding:28px 26px}
+.quote form{display:grid;gap:12px;max-width:520px}
+.quote input,.quote textarea{font-family:var(--body);font-size:1rem;padding:14px;border-radius:10px;border:1.5px solid rgba(44,38,32,.25);background:#FFFDF7;width:100%}
+.quote textarea{min-height:84px}
+.note{font-size:.85rem;color:#6E6659;margin-top:10px;display:none}
+.note.show{display:block}
+
+.claim{background:var(--bark);color:#CFC6B8;font-size:.85rem;padding:26px 0;text-align:center}
+.claim a{color:#F2B04E;font-weight:700;text-decoration:none}
+
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--saw);display:flex;justify-content:center;padding:12px 16px calc(12px + env(safe-area-inset-bottom))}
+.callbar a{color:#fff;font-weight:800;font-size:1.1rem;text-decoration:none;letter-spacing:.02em}
+@media(min-width:760px){.callbar{display:none}body{padding-bottom:0}}
+
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;animation:up .6s .4s both}
+.chip{background:rgba(245,239,226,.12);border:1px solid rgba(245,239,226,.25);color:var(--cream);border-radius:99px;padding:6px 14px;font-size:.82rem;font-weight:600}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ba figure{position:relative;border-radius:14px;overflow:hidden;box-shadow:0 12px 30px -18px rgba(44,38,32,.6);margin:0}
+.ba img{width:100%;height:380px;object-fit:cover;display:block}
+.ba figcaption{position:absolute;top:10px;left:10px;font-weight:800;font-size:.75rem;letter-spacing:.1em;padding:5px 12px;border-radius:99px;color:#fff}
+.tag-b{background:#8A4A2B}.tag-a{background:var(--moss)}.tag-c{background:rgba(22,53,42,.85);letter-spacing:.02em}
+.social{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.social a{text-decoration:none;font-weight:700;font-size:.9rem;color:var(--pine);background:#FFFDF7;border:1.5px solid rgba(44,38,32,.18);border-radius:99px;padding:10px 18px}
+.social a:hover{border-color:var(--saw)}
+@media(max-width:560px){.ba img{height:210px}}
+</style>
+</head>
+<body>
+<div class="ribbon">Free preview — built for Allwood Tree Service · <span>yours to keep either way</span></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="crew">Jacksonville · St. Johns, Florida</div>
+    <h1>Allwood<br>Tree <em>Service</em></h1>
+    <p class="sub">Tree removal, trimming, and storm cleanup that leaves your yard better than we found it.</p>
+    <div class="stars"><b>★★★★★</b> 4.9 on Google · 58 reviews</div>
+    <div class="chips"><span class="chip">⚡ Quoted next morning, started that afternoon</span><span class="chip">🧹 Cleanup and regrading included</span></div>
+    <div class="cta-row">
+      <a class="btn call" href="tel:+19043158870">📞 Call (904) 315-8870</a>
+      <a class="btn ghost" href="#quote">Get a fast quote</a>
+    </div>
+  </div>
+</header>
+<div class="tape"></div>
+
+<section>
+  <div class="wrap">
+    <div class="kick">What we handle</div>
+    <h2>Big trees. Tight spots. Clean yards.</h2>
+    <div class="svc">
+      <div class="card"><svg viewBox="0 0 24 24"><path d="M12 22V8M12 8l-5 4M12 8l5 4M12 8L8 3h8l-4 5z"/></svg><h3>Tree Removal</h3><p>Dead, dangerous, or in the way. Taken down safely, hauled off completely.</p></div>
+      <div class="card"><svg viewBox="0 0 24 24"><path d="M6 20c4-1 9-6 12-14M4 12l6 2M9 6l3 4"/></svg><h3>Trimming & Pruning</h3><p>Healthier trees, safer roofline, better shade. Cut right, not butchered.</p></div>
+      <div class="card"><svg viewBox="0 0 24 24"><path d="M3 20h18M7 20l2-9 4 3 3-8 1 14"/></svg><h3>Storm Cleanup</h3><p>Downed limbs and leaners handled fast, before they do more damage.</p></div>
+      <div class="card"><svg viewBox="0 0 24 24"><circle cx="12" cy="14" r="7"/><path d="M12 14v-4M12 3v4M8 5l2 2M16 5l-2 2"/></svg><h3>Stump Grinding</h3><p>That stump you mow around every week? Gone, ground below grade.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="kick">Recent work</div>
+    <h2>Big oaks. Tight yards. No mess left.</h2>
+    <div class="ba">
+      <figure><img src="photos/work-2.jpg" alt="Climber taking down a tall pine" loading="lazy"><figcaption class="tag-b">UP THE SPAR</figcaption></figure>
+      <figure><img src="photos/work-4.jpg" alt="Massive oak sectioned and loaded out" loading="lazy"><figcaption class="tag-a">SECTIONED AND HAULED</figcaption></figure>
+    </div>
+    <p style="font-size:.82rem;color:#8A8072;margin-top:8px">Photos from our Google listing.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="storm">
+      <div>
+        <div class="big">⛈️ Storm season is here.</div>
+        <p>August through October is when weak limbs and leaning trees become roof problems. Get ahead of the wind. A quick look now beats an emergency call later.</p>
+      </div>
+      <a class="btn call" href="tel:+19043158870">Get ahead of it</a>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="kick">Straight from Google</div>
+    <h2>Why neighbors call James & the crew</h2>
+    <div class="rev">
+      <div class="q"><div class="s">★★★★★</div><p>"James the owner called me within a half hour, gave me an outstanding price and scheduled me the next day."</p><div class="who">Eugene DiMarcello <span class="via">· via Google Reviews</span></div></div>
+      <div class="q"><div class="s">★★★★★</div><p>"The owner, James, gave me a quote the morning after I requested it and began work later that afternoon."</p><div class="who">Clay Smith <span class="via">· via Google Reviews</span></div></div>
+      <div class="q"><div class="s">★★★★★</div><p>"Their prices are very competitive but their extra efforts in cleaning up and regrading their work is where you really win."</p><div class="who">Rider VOs <span class="via">· via Google Reviews</span></div></div>
+    </div>
+    <div class="social">
+      <a href="https://www.google.com/maps/place/?q=place_id:ChIJoehJ3tfR5YgRkqGEgwMTGjY" target="_blank" rel="noopener">⭐ Read all 58 reviews on Google</a>
+    </div>
+  </div>
+</section>
+
+<section id="quote" style="padding-top:0">
+  <div class="wrap">
+    <div class="quote">
+      <div class="kick">After-hours or on a job?</div>
+      <h2>Get a quote without the phone tag</h2>
+      <form id="qf">
+        <input type="text" placeholder="Your name" required>
+        <input type="tel" placeholder="Your phone" required>
+        <textarea placeholder="What's going on? (example: big oak leaning over the driveway)"></textarea>
+        <button class="btn call" type="submit" style="border:none;cursor:pointer">Send it →</button>
+      </form>
+      <p class="note" id="qnote">👋 Preview mode. On the live site, this lands straight on James's phone as a text, day or night, so no job slips away while the crew is up a tree.</p>
+    </div>
+  </div>
+</section>
+
+<div class="claim">
+  <div class="wrap">Website preview prepared for <b>Allwood Tree Service</b> · not live yet · built by Nico at GetZeus, St. Augustine · <a href="tel:+16506257045">(650) 625-7045</a></div>
+</div>
+
+<div class="callbar"><a href="tel:+19043158870">📞 Call Allwood · (904) 315-8870</a></div>
+
+<script>
+document.getElementById('qf').addEventListener('submit', function(e){
+  e.preventDefault();
+  document.getElementById('qnote').classList.add('show');
+  this.querySelector('button').textContent = 'Sent ✓ (preview)';
+});
+</script>
+</body>
+</html>
